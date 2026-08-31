@@ -1,0 +1,88 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Type Checking & Linting
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor Configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Logs & Temporary Files
+*.log
+/tmp/
+outputs/
+project_code_dump.txt
+agent_conversation.txt
+extract_code.py
+extract_transcript.py
+tooling/
+gen_readme.py
+
+# Local AI / Agent tool directories
+.gemini/
+.agents/
